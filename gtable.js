@@ -1,13 +1,13 @@
 function init() {
   Tabletop.init({
-    key: 'https://docs.google.com/spreadsheets/d/15_xFyNCeTMRxSbdJuqhezhw1Ahb69NplZG8iNjs9AII',
+    key: "https://docs.google.com/spreadsheets/d/15_xFyNCeTMRxSbdJuqhezhw1Ahb69NplZG8iNjs9AII",
     callback: function(data, tabletop) {
-      console.log(data)
+      console.log(data);
     },
     simpleSheet: true
-  })
+  });
 }
-window.addEventListener(‘DOMContentLoaded’, init)
+window.addEventListener("DOMContentLoaded", init);
 
 
 
